@@ -1,3 +1,7 @@
+* {
+    overflow:hidden;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -5,7 +9,7 @@ body {
 }
 
 .main-container {
-    height: 100vh;
+    height: 85vh;
     background-image: 
     linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)),
     url('../img/close-up-code-coding-160107.jpg');

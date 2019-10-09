@@ -46,14 +46,22 @@ ul a {
 ul li {
     text-align: center;
     display: inline-block;
-    width: 10%;
+    height: 7%;
+    width: 20%;
     padding: 2rem;
     position: relative;
     border: 2px solid #fff;    
+    transition: transform 1s;
+    box-sizing: border-box;
+    margin-top: 1rem;
 }
 
 ul li:not(:last-child) {
     margin-right: 2rem;
+}
+
+ul li:hover {
+    transform: scale(1.1);
 }
 
 .item1 {

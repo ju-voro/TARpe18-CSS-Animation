@@ -85,7 +85,7 @@ ul li:not(:last-child) {
     opacity: 0;
     animation-name: item2;
     animation-duration: 3s;
-    animation-delay: 4s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
 }
 
